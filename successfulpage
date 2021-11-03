@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<!-- saved from url=(0062)http://nfuedu.zftcloud.com/index/travel_record/scanCode/path/2 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>wdtxz</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" type="text/css" href="./wdtxz_files/_reset.css">
+    <link rel="stylesheet" type="text/css" href="./wdtxz_files/bootstrap.css">
+    <style>
+	*{
+		margin:0 auto;
+	}
+        .main .content .content-img {
+            background: url("/public/static/images/alipay_card/stu-icon.png") no-repeat center center / cover;
+            width: 170px;
+            height: 170px;
+            margin: 0px auto;
+            position: relative;
+        }
+
+        .info {
+            border-radius: 0.12rem;
+            background: white;
+        }
+
+        .info label {
+            text-align: center;
+            font-size: 14px;
+            display: block;
+            line-height: .5rem;
+        }
+
+        .info img {
+            height: 20px;
+            width: 20px;
+            border-radius: 0.25rem;
+        }
+
+        .btn {
+            vertical-align: middle;
+            font-size: 11px;
+            border-radius: .25rem;
+            padding: 0px 5px;
+        }
+
+        .btn-primary {
+            color: black;
+            background-color: white;
+            border-color: black;
+        }
+
+        #logo img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate3d(-50%, -50%, 0);
+            -webkit-transform: translate3d(-50%, -50%, 0);
+            width: 30px;
+            height: 30px;
+            box-shadow: 0 0 20px #fff;
+            background: #fff;
+            border-radius: 5px;
+            border: 2px solid #fff;
+        }
+
+        .main {
+            /* background: url("/public/static/images/alipay_card/error-background.png") no-repeat center center / cover; */
+            background-color:rgb(58, 175, 102);
+            height: 94vh;
+        }
+
+        .main-allow {
+            background: url("/public/static/images/alipay_card/allow-background.png") no-repeat center center / cover;
+            background-color: rgb(58, 175, 102);
+            height: 100vh;
+        }
+
+        .content {
+            position: relative;
+            top: 0.5rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 6.3rem;
+            /* height: 5.2rem; */
+            border-radius: 0.12rem;
+            background-color: #FFFFFF;
+        }
+
+        .content1 {
+            margin: .8rem auto;
+            width: 6.3rem;
+            border-radius: 0.12rem;
+            padding-top: 0px;
+            padding-bottom: 1px;
+            text-align: center;
+            height: 33vh;
+			margin-top: -10px;
+		
+        }
+
+        .info1 {
+            border-radius: 0.12rem;
+        }
+
+        .info1 label {
+            text-align: left;
+            font-size: 14px;
+            display: block;
+            line-height: .5rem;
+        }
+
+        .foot {
+            color: #808080;
+            font-size: 15px;
+        }
+
+        .btn-travel {
+            background-color: white;
+            vertical-align: middle;
+            font-size: 23px;
+            border: 1px solid #007bff;
+            border-radius: .25rem;
+            height: 2rem;
+            padding-top: .5rem;
+            text-indent: 1em;
+            /*padding-bottom: .55rem;*/
+            width: 5rem;
+            /*display: flex;*/
+            /*display: -webkit-flex;*/
+            text-align: left;
+            margin: 0px auto;
+        }
+
+        .btn-travel a:hover {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        table {
+            display: block;
+            margin: 0px auto;
+            border: 1px solid #007bff;
+            border-radius: .25rem;
+            width: 5rem;
+            font-size: 15px;
+            text-align: left;
+        }
+
+        table .title {
+            width: 100px;
+            text-align: center;
+            font-size: 16px;
+        }
+		.nav{
+		    
+		    position: fixed;
+		    top: 0;
+		    text-align:0;
+		    margin: 0 auto;
+		    padding: 0;
+			margin-top: -30px;
+		}
+		.nav1 img{
+		     width:100%;
+		     margin: 0 auto;
+		     padding: 0;
+		 }
+		 .info{
+			 margin-top: 40px;
+		 }
+    </style>
+	<script>
+	       Date.prototype.format = function (fmt) {
+	           var o = {
+	               "y+": this.getFullYear, //年
+	               "M+": this.getMonth() + 1, //月份
+	               "d+": this.getDate(), //日
+	               "h+": this.getHours(), //小时
+	               "m+": this.getMinutes(), //分
+	               "s+": this.getSeconds() //秒
+	           };
+	           if (/(y+)/.test(fmt)) fmt = fmt.replace(RegExp.$1, (this.getFullYear() + "").substr(4 - RegExp.$1.length));
+	           for (var k in o)
+	               if (new RegExp("(" + k + ")").test(fmt)) fmt = fmt.replace(RegExp.$1, (RegExp.$1.length == 1) ? (o[k]) : (("00" + o[k]).substr(("" + o[k]).length)));
+	           return fmt;
+	       }
+	           setInterval("document.getElementById('dateTime').innerHTML = (new Date()).format('yyyy-MM-dd hh:mm:ss');", 1000);
+	           setInterval("document.getElementById('dateTime1').innerHTML = (new Date()).format('hh:mm:ss');",1000);
+	         
+	         
+	var t=new Date();
+	var year=t.getFullYear();//获取当前年份
+	 var month=t.getMonth();
+	var day=t.getDate();
+	var hour=t.getHours();
+	var minute=t.getMinutes();
+	var second=t.getSeconds();
+	var showTime=year+"-"+""+(month+1)+"-"+day+"  "+hour+":"+minute+":"+second;
+	 
+	  
+	   
+	   </script>
+	
+</head>
+<body>
+	<div class="nav">
+		
+	    <div class="nav1"><a href='javascript:setTimeout(function(){window.location.href="txm/time/index.html"},400);'><img src="txm/time/2.jpg" alt=""></a></div>     
+	    </div>
+<div class="main" id="bgm">
+    <input type="hidden" name="user_id" value="2088612574450077">
+    <div class="content" style="padding-bottom:.2rem;">
+        <div class="info">
+            <label style="margin-bottom: .1rem;">
+                <span style="font-size: 18px;line-height: 30px;">
+                    xxx                   <img src="2.png" alt="">
+                </span>
+            </label>
+            <table>
+                <tbody><tr>
+                    <td class="title">学工号:</td>
+                    <td>182011924</td>
+                </tr>
+                <tr>
+                            <td class="title">院 系:</td>
+                            <td>xxxxx</td>
+                        </tr>
+                        <tr>
+                            <td class="title">专 业:</td>
+                            <td>xxxx</td>
+                        </tr>
+                        <tr>
+                            <td class="title">班 级:</td>
+                            <td>xxxx</td>
+                        </tr>
+                                    </tbody></table>
+        </div>
+    </div>
+    <div class="content1" style="padding-bottom:.2rem;padding-top: 3vh;">
+        <div class="info">
+            <span style="font-size: 21px;font-weight: bold;">扫码时间</span>
+            <p style="font-size: 25px;font-weight: bold;margin-top: -2vh;margin-bottom: 0px;"> <script>document.write(showTime)</script></p>
+                        <img src="./wdtxz_files/allow.gif" alt="" style="height: 6rem;width: 100%;">
+                        <p style="font-size: 1.3rem;font-weight:bold;margin-top: -4vh;" id="dateTime1"></p>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="./wdtxz_files/jquery.min.js.下载"></script>
+<script>
+    var allow = "2";
+    var identify = "1";
+    window.onload = function () {
+        if (allow == 1) {
+            $("#bgm").removeClass('main');
+            $("#bgm").addClass('main-allow');
+            $("#bgm").css('background-color', '#FF9900');
+            if (identify > 1) {
+                if (identify == 6){
+                    $(".main-allow").css('background-color', '#FF9900');
+                } else{
+                    $(".main-allow").css('background-color', 'rgb(25,122,255)');
+                }
+            }
+            $("#img-allow").css('height', '232px');
+            $("#img-allow").css('width', '100%');
+            $(".content1").css('padding-top', '1vh');
+        }
+    }
+
+    setInterval(getCurrentTime, 1000);
+
+    function getCurrentTime() {
+        let now = new Date();
+        let hh = now.getHours();
+        let mm = now.getMinutes() >= 10 ? now.getMinutes() : '0' + now.getMinutes();
+        let ss = now.getSeconds() >= 10 ? now.getSeconds() : '0' + now.getSeconds();
+        let timeStr = hh + ':' + mm + ':' + ss;
+        $("#hourTime").text(timeStr);
+    }
+</script>
+
+</body></html>
